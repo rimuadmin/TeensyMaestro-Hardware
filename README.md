@@ -39,7 +39,7 @@ The intent of this PCB is to simplify the build process, make it easier to produ
 
 > Ordering the Main PCB and Front Panel in the same order will save on shipping costs.
 
-**Add the Main PCB to the cart**
+### Add the Main PCB to the cart
 1. Download the zip file (TeensyMaestro Main PCB/production/TeensyMaestro Main PCB_3.0.zip) from this repository to your PC
 2. Open JLCPCB's web page (jlcpcb.com) in your browser
 3. Click 'Order Now'
@@ -51,21 +51,21 @@ The intent of this PCB is to simplify the build process, make it easier to produ
 9. Optionally, select 'Surface Finish: LeadFree HASL'
 10. Click 'Save to Cart'.
 
-**Add the Front Panel to the cart**
-11. Download the zip file (TeensyMaestro Front Panel/production/TeensyMaestro_Front_Panel_v2.0.zip) from this repository to your PC.
-12. Open JLCPCB's web page (jlcpcb.com) in a browser
-13. Click 'Order Now'
-14. Use the 'Add gerber file' button to select the zip file that you downloaded
-15. The order page will import the gerber files and you should see the 2D representation of the front and rear of the panel displayed.
-16. JLCPCB examines the zip file and sets the Layers and Dimensions values.
-17. Select 'Base Material: Aluminum'
-18. Select 'PCB Qty'. The minimum quantity is 5.
-19. Select 'PCB Color: Black'
-20. Optionally, select 'Surface Finish: LeadFree HASL'
-21. Select 'Mark on PCB: Remove Mark' *(If you don't remove this, the fabricator will print the order number on the front panel)*
-22. Click 'Save to Cart'.
+### Add the Front Panel to the cart
+1. Download the zip file (TeensyMaestro Front Panel/production/TeensyMaestro_Front_Panel_v2.0.zip) from this repository to your PC.
+2. Open JLCPCB's web page (jlcpcb.com) in a browser
+3. Click 'Order Now'
+4. Use the 'Add gerber file' button to select the zip file that you downloaded
+5. The order page will import the gerber files and you should see the 2D representation of the front and rear of the panel displayed.
+6. JLCPCB examines the zip file and sets the Layers and Dimensions values.
+7. Select 'Base Material: Aluminum'
+8. Select 'PCB Qty'. The minimum quantity is 5.
+9. Select 'PCB Color: Black'
+10. Optionally, select 'Surface Finish: LeadFree HASL'
+11. Select 'Mark on PCB: Remove Mark' *(If you don't remove this, the fabricator will print the order number on the front panel)*
+12. Click 'Save to Cart'.
 
-23. Check out and purchase the two boards.
+Check out and purchase the two boards.
 
 # PCB Assembly Steps
 
