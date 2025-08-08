@@ -2,18 +2,19 @@
 
 ![Assembled TeensyMaestro](images/TeensyMaestro_complete.jpg "Assembled TeensyMaestro")
 
-Main PCB
-
-![TeensyMaestro PCB Front](images/TeensyMaestro_pcb_front_20250806.jpg "TeensyMaestro PCB Front")
-
-![PCB Rear](images/TeensyMaestro_pcb_rear_20250806.jpg "TeensyMaestro PCB Rear")
-
 ### Summary
 The TeensyMaestro was first designed by Len (KD0RC) to connect to a FlexRadio model 6000 or 8000. It performs some, but not all, of the common functions that the SmartSDR app or the Flex Maestro perform. It's named TeensyMaestro because it's designed around the Teensy 4.1 Microcontroller. Len's initial version was built using point-to-point wiring which presents a challenge for builders. Len and I (NV0E) have created a PCB and matching front panel that simplifies the build process. Len's project describing hardware version 1 and containing the firmware for all versions is here:
 
 [TeensyMaestro for Flex 6000 Radios](https://github.com/KD0RC/Teensy-Maestro-for-Flex-6000-radios)
 
 The intent of this PCB is to simplify the build process, make it easier to produce a polished final product, and replace some components with less expensive alternatives.
+
+### Main PCB
+
+![TeensyMaestro PCB Front](images/TeensyMaestro_pcb_front_20250806.jpg "TeensyMaestro PCB Front")
+
+![PCB Rear](images/TeensyMaestro_pcb_rear_20250806.jpg "TeensyMaestro PCB Rear")
+
 
 ### Design Features
 - A main PCB that simplifies building the Teensy Maestro and minimizes wiring errors.
