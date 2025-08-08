@@ -22,7 +22,7 @@ The intent of this PCB is to simplify the build process, make it easier to produ
 
 ### Schematic Design
 
-[Schematic Design](/TeensyMaestro Main PCB/TeensyMaestro Main PCB.pdf)
+[Schematic Design](https://github.com/rimuadmin/TeensyMaestro-Hardware/blob/main/TeensyMaestro%20Main%20PCB/TeensyMaestro%20Main%20PCB.pdf)
 
 ### Circuit Differences from Original Design
 - **Multiplexers (CD74HC5067M) → I2C I/O Expanders (MCP23008/MCP23017)** - This frees up some GPIOs on the Teensy for other uses.
