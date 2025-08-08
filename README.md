@@ -33,6 +33,7 @@ The intent of this PCB is to simplify the build process, make it easier to produ
 - **Multiplexers (CD74HC5067M) → I2C I/O Expanders (MCP23008/MCP23017)** - This frees up some GPIOs on the Teensy for other uses.
 - **Adafruit LCD (HX8357D) & Touch Controller (TSC2007) → ST7796S LCD** - The new LCD has an integrated touch controller, reducing cost from ~$45 to ~$19. It's also slightly larger (4.0" vs. 3.5”) but retains the same 480x320 resolution.
 - **Panel-Mounted Switches → PCB-Mounted Switches** - The 4 panel mounted switches (RIT-A, XIT-A, RIT-B, XIT-B) are now directly mounted on the PCB.
+- **Panel-Mounted Encoders → PCB-Mounted Encoders** - The 9 rotary encoders are now directly mounted on the PCB.
 - An optocoupler has been added to the KEY OUT for electrical isolation between the TeensyMaestro and the radio.
 
 # Ordering the PCB & Front Panel from JLCPCB
