@@ -198,7 +198,7 @@ The front of the PCB should look like this:
 
 # Front Panel and Enclosure Mounting
 
-This section covers recommendations, tips and techniques that I (NV0E) used for building my TeensyMaestro. You may find other ways of wiring the connectors, or have other preferences for the rear panel of the enclosure. The following describes a set of parts and techniques that work to create a successfull project. Hopefully this will help with whatever choices you make. Since I was testing multiple revisions of the PCB and determining which parts work best, one of my goals was to make it fairly easy to disconnect the PCB from the enclosure if I needed to. I didn't want to have to desolder anything to take it apart.
+This section covers recommendations, tips and techniques that I (NV0E) used for building my TeensyMaestro. You may find other ways of wiring the connectors, or have other preferences for the rear panel of the enclosure. The following describes a set of parts and techniques that work to create a successful project. Hopefully this will help with whatever choices you make. Since I was testing multiple revisions of the PCB and determining which parts work best, one of my goals was to make it fairly easy to disconnect the PCB from the enclosure if I needed to. I didn't want to have to desolder anything to take it apart.
 
 You'll see in the picture below, I haven't added switches for all the header connectors, most notably the CW message buttons are not yet mounted.
 
@@ -207,7 +207,7 @@ You'll see in the picture below, I haven't added switches for all the header con
 ## Wiring Header Connectors
 
 ### Headers
-There are a large number of headers on the reverse side of the board for connections to elsewhere inside the TeensyMaestro. There are some headers that must be connected (SLICE A and SLICE B), but the remainder are optional. If you use CW, you will want to wire KEY OUT, PADDLES and/or ST KEY to rear connectors and CW MSGS to momentary switches elsehwhere in the enclosure. 
+There are a large number of headers on the reverse side of the board for connections to elsewhere inside the TeensyMaestro. There are some headers that must be connected (SLICE A and SLICE B), but the remainder are optional. If you use CW, you will want to wire KEY OUT, PADDLES and/or ST KEY to rear connectors and CW MSGS to momentary switches elsewhere in the enclosure. 
 
 The PCB is designed to hold JST-XH sockets for the headers. These are readily available in pre-wired packs from Amazon. If another connector type is preferred, these could be substituted with any 2.54mm pitch socket.
 
