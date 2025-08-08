@@ -4,38 +4,29 @@
 
 ![PCB Rear](images/TeensyMaestro_pcb_rear_20250806.jpg "TeensyMaestro PCB Rear")
 
-## Summary
+### Summary
 The TeensyMaestro was first designed by Len (KD0RC) to connect to a FlexRadio model 6000 or 8000. It performs some, but not all, of the common functions that the SmartSDR app or the Flex Maestro perform. It's named TeensyMaestro because it's designed around the Teensy 4.1 Microcontroller. Len's initial version was built using point-to-point wiring which presents a challenge for builders. Len and I (NV0E) have created a PCB and matching front panel that simplifies the build process. Len's project describing hardware version 1 and containing the firmware for all versions is here:
 
 [TeensyMaestro for Flex 6000 Radios](https://github.com/KD0RC/Teensy-Maestro-for-Flex-6000-radios)
 
 The intent of this PCB is to simplify the build process, make it easier to produce a polished final product, and substitute some components for less expensive alternatives.
 
-Associated Projects:
-- [TeensyMaestro-Hardware (this project)](https://github.com/rimuadmin/Teensy_Maestro-hw)
-- [TeensyMaestro for Flex 6000 Radios (the firmware)](https://github.com/KD0RC/Teensy-Maestro-for-Flex-6000-radios)
-
-## Design Features
+### Design Features
 - A main PCB that simplifies building the Teensy Maestro and minimizes wiring errors.
-- A front panel that matches the main PCB that can be fabricated by a PCB manufacturer in aluminum. This inexpensive option will allow a builder to achieve a refined, professional finish.
+- A front panel that matches the main PCB that can be fabricated by a PCB manufacturer in aluminum with a black color. This inexpensive option will allow a builder to achieve a refined, professional finish.
 - Through-hole components to simplify assembly.
 - PCB headers to connect to the rear panel connectors.
 - I2C bus header for future extensibility.
 - Optocoupler on key-out connector for electrical isolation from the radio.
 - Reduced BOM cost due to part substitution.
 
-## Front Panel
-- The holes and openings align with the encoders, switches and LCD of the main PCB.
-- The front panel can be fabricated in aluminum and ordered from the same PCB fabricator as the main PCB. 
-- Our recommendation is to order a black aluminum front panel with white text. This costs a little more than FR4, but creates a professional looking project.
-
-## Circuit Differences from Original Design
+### Circuit Differences from Original Design
 - **Multiplexers (CD74HC5067M) → I2C I/O Expanders (MCP23008/MCP23017)** - This frees up some GPIOs on the Teensy for other uses.
 - **Adafruit LCD (HX8357D) & Touch Controller (TSC2007) → ST7796S LCD** - The new LCD has an integrated touch controller, reducing cost from ~$45 to ~$19. It's also slightly larger (4.0" vs. 3.5”) but retains the same 480x320 resolution.
 - **Panel-Mounted Switches → PCB-Mounted Switches** - The 4 panel mounted switches (RIT-A, XIT-A, RIT-B, XIT-B) are now directly mounted on the PCB.
 - An optocoupler has been added to the KEY OUT for electrical isolation between the TeensyMaestro and the radio.
 
-## Ordering the PCB from JLCPCB
+# Ordering the PCB & Front Panel from JLCPCB
 
 > Ordering the Main PCB and Front Panel in the same order will save on shipping costs.
 
@@ -57,21 +48,23 @@ Associated Projects:
 13. Click 'Order Now'
 14. Use the 'Add gerber file' button to select the zip file that you downloaded
 15. The order page will import the gerber files and you should see the 2D representation of the front and rear of the panel displayed.
-16. Select 'Base Material: Aluminum'
-17. Select 'PCB Qty'. The minimum quantity is 5.
-18. Select 'PCB Color: Black'
-19. Optionally, select 'Surface Finish: LeadFree HASL'
-20. Select 'Mark on PCB: Remove Mark' *(If you don't remove this, the fabricator will print the order number on the front panel)*
-21. Click 'Save to Cart'.
+16. JLCPCB examines the zip file and sets the Layers and Dimensions values.
+17. Select 'Base Material: Aluminum'
+18. Select 'PCB Qty'. The minimum quantity is 5.
+19. Select 'PCB Color: Black'
+20. Optionally, select 'Surface Finish: LeadFree HASL'
+21. Select 'Mark on PCB: Remove Mark' *(If you don't remove this, the fabricator will print the order number on the front panel)*
+22. Click 'Save to Cart'.
 
-## Overall Assembly
-- The slice tuning encoders are attached directly to the front panel, with openings in the main PCB to allow the encoders to pass through.
-- The front side of the PCB holds the display, encoders and push buttons.
-- The reverse side of the PCB holds the Teensy 4.1 micro controller, I/O Expanders, header connectors, resistors and capacitors.
+23. Check out and purchase the two boards.
 
 # PCB Assembly Steps
 
 > *Do not solder the display on to the front side of the PCB until all the components on the rear side of the PCB have been soldered. The display covers over component through-holes that can't be soldered after the display is in place.*
+
+- The slice tuning encoders are attached directly to the front panel, with openings in the main PCB to allow the encoders to pass through.
+- The front side of the PCB holds the display, encoders and push buttons.
+- The reverse side of the PCB holds the Teensy 4.1 micro controller, I/O Expanders, header connectors, resistors and capacitors.
 
 ### 1. Prepare the Display
 
