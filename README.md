@@ -195,19 +195,6 @@ The front of the PCB should look like this:
 - Restart the device.
 - Check LCD displays the startup screen and subsequent screens.
 
-## 3D Views
-
-### Front panel
-
-![Front Panel](images/TeensyMaestro_front_panel_black-rev3.png "Front Panel")
-
-### Main PCB Front
-
-![Front Side of PCB](images/front_side_2025-08-06.png "Front Side of PCB")
-
-## Main PCB Rear
-
-![Rear Side of PCB](images/rear_side_2025-08-06.png "Rear Side of PCB")
 
 # Front Panel and Enclosure Mounting
 
@@ -360,3 +347,18 @@ The maker has a lot of flexibility in how the PCB is wired internally and what c
 | Item                                       | Qty   | URL                                          |
 | :----------------------------------------- | ----: | :------------------------------------------- |
 | Step Drill Bit                             |   1   | https://www.amazon.com/dp/B076QC5BWR         |
+
+
+# 3D Views
+
+### Front panel
+
+![Front Panel](images/TeensyMaestro_front_panel_black-rev3.png "Front Panel")
+
+### Main PCB Front
+
+![Front Side of PCB](images/front_side_2025-08-06.png "Front Side of PCB")
+
+## Main PCB Rear
+
+![Rear Side of PCB](images/rear_side_2025-08-06.png "Rear Side of PCB")
