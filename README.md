@@ -9,11 +9,11 @@ The TeensyMaestro was first designed by Len (KD0RC) to connect to a FlexRadio mo
 
 [TeensyMaestro for Flex 6000 Radios](https://github.com/KD0RC/Teensy-Maestro-for-Flex-6000-radios)
 
-The intent of this PCB is to simplify the build process, make it easier to produce a polished final product, and substitute some components for less expensive alternatives.
+The intent of this PCB is to simplify the build process, make it easier to produce a polished final product, and replace some components with less expensive alternatives.
 
 ### Design Features
 - A main PCB that simplifies building the Teensy Maestro and minimizes wiring errors.
-- A front panel that matches the main PCB that can be fabricated by a PCB manufacturer in aluminum with a black color. This inexpensive option will allow a builder to achieve a refined, professional finish.
+- A front panel that matches the main PCB that can be fabricated by a PCB manufacturer in aluminum, with a black finish. This inexpensive option will allow a builder to achieve a refined, professional finish.
 - Through-hole components to simplify assembly.
 - PCB headers to connect to the rear panel connectors.
 - I2C bus header for future extensibility.
@@ -32,12 +32,12 @@ The intent of this PCB is to simplify the build process, make it easier to produ
 
 **Add the Main PCB to the cart**
 1. Download the zip file (TeensyMaestro Main PCB/production/TeensyMaestro Main PCB_3.0.zip) from this repository to your PC
-2. Open JLCPCB's web page (jlcpcb.com) in a browser
+2. Open JLCPCB's web page (jlcpcb.com) in your browser
 3. Click 'Order Now'
 4. Use the 'Add gerber file' button to select the zip file that you downloaded
 5. The order page will import the gerber files and you should see the 2D representation of the front and rear of the panel displayed.
 6. JLCPCB examines the zip file and sets the Layers and Dimensions values.
-7. The default quantity is 5, the minimum order quantity.
+7. The default quantity is 5, which is the minimum order quantity.
 8. The remaining defaults don't need to be changed, but if you prefer a different color PCB you could select it here.
 9. Optionally, select 'Surface Finish: LeadFree HASL'
 10. Click 'Save to Cart'.
@@ -214,11 +214,11 @@ The PCB is designed to hold JST-XH sockets for the headers. These are readily av
 - **SLICE B** - A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the right side.
 - **TUNE** - A 2-pin connector for a Tune switch mounted in the enclosure.
 - **KEY OUT** - A 2-pin connector for a rear-panel connector for CW Key output. This output uses an opto-coupler for electrical isolation.
-- **PTT SW** - A 2-pin connector that can be optionally be connected to a momentary contact push-to-talk switch that can be mounted in the enclosure.
-- **PTT IN** - A 2-pin connector that can be optionally be connected to a rear-panel connector for a foot-switch.
+- **PTT SW** - A 2-pin connector that can optionally be connected to a momentary contact push-to-talk switch that can be mounted in the enclosure.
+- **PTT IN** - A 2-pin connector that can optionally be connected to a rear-panel connector for a foot-switch.
 - **SIDE TONE** - A 2-pin connector for a speaker or side-tone amplifier and speaker.
 - **ST KEY** - A 2-pin connector for a rear-panel connector for a CW straight key. 
-- **PADDLES** - A 3-pin connector for DOT (Tip), GND (Shield), DASH (Ring) that connects to a rear-panel connector for CW paddles. 
+- **PADDLES** - A 3-pin connector for DOT (Tip), GND (Shield), DASH (Ring), which connect to a rear-panel connector for CW paddles.. 
 - **I2C** - A 4-pin connector for SDA, SCL, GND, 3.3V that can be used for future expansion of the I2C bus to another internal PCB.
 - **ON_OFF** - A 2-pin connector for a momentary contact switch to turn the TeensyMaestro on or off.
 - **PROGRAM** - A 2-pin connector for a momentary contact switch to put the Teensy 4.1 into programming mode.
@@ -265,9 +265,9 @@ If needed, there are several headers that can be connected to jacks on the rear 
 
 The Key Out is polarized - make sure that the GND wire connects to the shield of the panel jack.
 
-The paddle connector needs to be wired correctly to work. See the chart above for the pinout and wiring colors. The PCB is marked with DOT(T), GND(S), DSH(R). This describes the parts of the jack: T=Tip, S=Shield, R=Ring
+The paddle connector needs to be wired correctly to work. See the chart above for the pinout and wiring colors. The PCB is marked with DOT(T), GND(S), DSH(R). These describe the parts of the jack: T=Tip, S=Shield, R=Ring
 
-Likewise the Straight Key (ST_KEY) input is marked on the PCB with KEY(T), GND(S). This describes the parts of the jack: T=Tip, S=Shield
+Likewise the Straight Key (ST_KEY) input is marked on the PCB with KEY(T), GND(S). These describe the parts of the jack: T=Tip, S=Shield
 
 ## Internal Connections
 
@@ -280,17 +280,17 @@ The large slice encoders have long leads attached that make cable management ins
 ## Mounting the Front Panel
 The enclosure listed in the BOM includes a front panel that will not be used. Instead order the matching front panel using the instructions here: [TeensyMaestro Front Panel](https://github.com/rimuadmin/Teensy_Maestro_Front_Panel-hw)
 
-The front panel is only colored black on the front side. All the edges are bare aluminum. Use a black permanent magic marker to color the inside edge of the display opening, the button holes and the outside edge of the panel. This will produce a better look than leaving the raw aluminum showing.
+The front panel is only colored black on the front side. All of the edges are bare aluminum. Use a black permanent magic marker to color the inside edge of the display opening, the button holes and the outside edge of the panel. This will produce a better look than leaving the raw aluminum showing.
 
 ### Screws
-Using black screws on the front panel will produce a nice looking front panel. If you prefer you could counter sink the screws. This will expose raw aluminum, so don't forget to use the black magic marker to color the counter sunk holes.
+Using black screws on the front panel will produce a nice looking front panel. If you prefer, you could counter sink the screws. This will expose raw aluminum, so don't forget to use the black magic marker to color the counter sunk holes.
 
 You will need 4 screws to attach the panel to the enclosure. Black sheet metal screws with either a button head or truss head will work well.
 
 To attach the two large slice encoders, you will need a total of 6 x 3mm diameter x 12mm long screws. I used these: https://www.amazon.com/dp/B0CLLC3G3S 
 
 ### Knobs
-If you are using the recommended aluminum knobs, you may prefer to wrap the 9 small encoder shafts with adhesive aluminum tape to improve the fit of the knobs.
+If you are using the recommended aluminum knobs, you may prefer to wrap the nine small encoder shafts with adhesive aluminum tape to improve the fit of the knobs.
 
 
 # Bill of Materials
