@@ -2,6 +2,8 @@
 
 ![Assembled TeensyMaestro](images/TeensyMaestro_complete.jpg "Assembled TeensyMaestro")
 
+![TeensyMaestro PCB Front](images/TeensyMaestro_pcb_front_20250806.jpg "TeensyMaestro PCB Front")
+
 ![PCB Rear](images/TeensyMaestro_pcb_rear_20250806.jpg "TeensyMaestro PCB Rear")
 
 ### Summary
