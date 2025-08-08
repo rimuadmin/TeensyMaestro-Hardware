@@ -212,7 +212,7 @@ There are a large number of headers on the reverse side of the board for connect
 The PCB is designed to hold JST-XH sockets for the headers. These are readily available in pre-wired packs from Amazon. If another connector type is preferred, these could be substituted with any 2.54mm pitch socket.
 
 | Header      | Purpose |
-| :---------: | :---------------------------------- |
+| :---------- | :---------------------------------- |
 | SLICE A     | A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the left side. |
 | SLICE B     | A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the right side. |
 | TUNE        | A 2-pin connector for a Tune switch mounted in the enclosure. |
