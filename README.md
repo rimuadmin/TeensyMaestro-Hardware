@@ -20,6 +20,10 @@ The intent of this PCB is to simplify the build process, make it easier to produ
 - Optocoupler on key-out connector for electrical isolation from the radio.
 - Reduced BOM cost due to part substitution.
 
+### Schematic Design
+
+![Schematic Design](TeensyMaestro Main PCB/TeensyMaestro Main PCB.pdf "Schematic Design")
+
 ### Circuit Differences from Original Design
 - **Multiplexers (CD74HC5067M) → I2C I/O Expanders (MCP23008/MCP23017)** - This frees up some GPIOs on the Teensy for other uses.
 - **Adafruit LCD (HX8357D) & Touch Controller (TSC2007) → ST7796S LCD** - The new LCD has an integrated touch controller, reducing cost from ~$45 to ~$19. It's also slightly larger (4.0" vs. 3.5”) but retains the same 480x320 resolution.
