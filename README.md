@@ -196,7 +196,7 @@ The front of the PCB should look like this:
 
 ### Front panel
 
-![Front Panel](TeensyMaestro Front Panel_frontblack-rev3.png "Front Panel")
+![Front Panel](images/TeensyMaestro Front Panel_frontblack-rev3.png "Front Panel")
 
 ### Main PCB Front
 
