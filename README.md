@@ -59,7 +59,7 @@ The intent of this PCB is to simplify the build process, make it easier to produ
 5. The order page will import the gerber files and you should see the 2D representation of the front and rear of the panel displayed.
 6. JLCPCB examines the zip file and sets the Layers and Dimensions values.
 7. Select 'Base Material: Aluminum'
-8. Select 'PCB Qty'. The minimum quantity is 5.
+8. The default quantity is 5, which is the minimum order quantity.
 9. Select 'PCB Color: Black'
 10. Optionally, select 'Surface Finish: LeadFree HASL'
 11. Select 'Mark on PCB: Remove Mark' *(If you don't remove this, the fabricator will print the order number on the front panel)*
