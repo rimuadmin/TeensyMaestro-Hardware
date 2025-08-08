@@ -200,23 +200,23 @@ The front of the PCB should look like this:
 
 This section covers recommendations, tips and techniques that I (NV0E) used for building my TeensyMaestro. You may find other ways of wiring the connectors, or have other preferences for the rear panel of the enclosure. The following describes a set of parts and techniques that work to create a successfull project. Hopefully this will help with whatever choices you make. Since I was testing multiple revisions of the PCB and determining which parts work best, one of my goals was to make it fairly easy to disconnect the PCB from the enclosure if I needed to. I didn't want to have to desolder anything to take it apart.
 
-You'll see in the picture below, I haven't added switches for all the header connectors, most noteably the CW message buttons are not yet mounted.
+You'll see in the picture below, I haven't added switches for all the header connectors, most notably the CW message buttons are not yet mounted.
 
 ![Enclosure Mounting](images/teensy_maestro_enclosure_mounting.jpg "Enclosure Mounting")
 
 ## Wiring Header Connectors
 
 ### Headers
-There are a large number of headers on the reverse side of the board for connections to elsewhere inside the TeensyMaestro. There are some headers tha must be connected (SLICE A and SLICE B), but the remainder are optional. If you use CW, you will want to wire KEY OUT, PADDLES and/or ST KEY to rear connectors and CW MSGS to momentary switches elsehwhere in the enclosure. 
+There are a large number of headers on the reverse side of the board for connections to elsewhere inside the TeensyMaestro. There are some headers that must be connected (SLICE A and SLICE B), but the remainder are optional. If you use CW, you will want to wire KEY OUT, PADDLES and/or ST KEY to rear connectors and CW MSGS to momentary switches elsehwhere in the enclosure. 
 
-The PCB is designed to hold JST-XH sockets for the headers. These are readily available in pre-wired packs from Amazon. If another connector type is prefered, these could be substituted with any 2.54mm pitch socket.
+The PCB is designed to hold JST-XH sockets for the headers. These are readily available in pre-wired packs from Amazon. If another connector type is preferred, these could be substituted with any 2.54mm pitch socket.
 - **SLICE A** - A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the left side.
 - **SLICE B** - A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the right side.
 - **TUNE** - A 2-pin connector for a Tune switch mounted in the enclosure.
 - **KEY OUT** - A 2-pin connector for a rear-panel connector for CW Key output. This output uses an opto-coupler for electrical isolation.
 - **PTT SW** - A 2-pin connector that can be optionally be connected to a momentary contact push-to-talk switch that can be mounted in the enclosure.
 - **PTT IN** - A 2-pin connector that can be optionally be connected to a rear-panel connector for a foot-switch.
-- **SIDE TONE** - A 2-pin connector for a speaker or side-tone applifier and speaker.
+- **SIDE TONE** - A 2-pin connector for a speaker or side-tone amplifier and speaker.
 - **ST KEY** - A 2-pin connector for a rear-panel connector for a CW straight key. 
 - **PADDLES** - A 3-pin connector for DOT (Tip), GND (Shield), DASH (Ring) that connects to a rear-panel connector for CW paddles. 
 - **I2C** - A 4-pin connector for SDA, SCL, GND, 3.3V that can be used for future expansion of the I2C bus to another internal PCB.
