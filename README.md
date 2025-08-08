@@ -190,15 +190,19 @@ The front of the PCB should look like this:
 - Restart the device.
 - Check LCD displays the startup screen and subsequent screens.
 
-## 3D Views (Rev 3)
+## 3D Views
 
-### Front
+### Front panel
 
-![Front Side of PCB Rev 3](images/front_side_2025-08-06.png "Front Side of PCB Rev 3")
+![Front Panel](TeensyMaestro Front Panel_frontblack-rev3.png "Front Panel")
 
-## Rear
+### Main PCB Front
 
-![Rear Side of PCB Rev 3](images/rear_side_2025-08-06.png "Rear Side of PCB Rev 3")
+![Front Side of PCB](images/front_side_2025-08-06.png "Front Side of PCB")
+
+## Main PCB Rear
+
+![Rear Side of PCB](images/rear_side_2025-08-06.png "Rear Side of PCB")
 
 # Front Panel and Enclosure Mounting
 
