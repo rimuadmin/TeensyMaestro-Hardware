@@ -1,4 +1,4 @@
-# PCB for the TeensyMaestro
+# TeensyMaestro Front Panel and PCB
 
 ![Assembled TeensyMaestro](images/TeensyMaestro_complete.jpg "Assembled TeensyMaestro")
 
@@ -295,7 +295,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the 9 sm
 
 # Bill of Materials
 
-## Main PCB
+### Main PCB
 | Item                                        | Qty   | URL                                                                                            |
 | :------------------------------------------ | ----: | :----------------------------------------------------------------------------------------------|
 | Teensy 4.1                                  |   1   | https://www.digikey.com/en/products/detail/sparkfun-electronics/20359/16688101                 |
@@ -322,7 +322,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the 9 sm
 | M2.5 x 6mm + 6mm brass hex spacer standoffs |   6   | https://www.amazon.com/dp/B08F2F96HM                                                           |
 | M2.5 Head Machine Screws Nuts Washers       |   1   | https://www.amazon.com/dp/B07CLQFQ4C                                                           | 
 
-## Alternative PCB Parts
+### Alternative PCB Parts
 | Item                                        | Qty   | URL                                                                                            |
 | :------------------------------------------ | ----: | :----------------------------------------------------------------------------------------------|
 | CL170844FR 6mm D-shaft Knob - Grey          |   9   | These have a line on the top and side, so may not be suitable for the Teensy Maestro, but they are available in multiple colors and fit well. This link is for the grey color option: https://www.digikey.com/en/products/detail/cliff-electronic-components-ltd/CL170844FR/19559125 |
@@ -330,7 +330,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the 9 sm
 | 3-pin JST-XH Headers and wires              |   1   | These have a longer (50cm) and heavier (22AWG) wire. If you are frequently opening the enclosure, these may be more robust easier to work with. https://www.amazon.com/dp/B0BW9VGY7D  |
 | Slice Tuning Knobs                          |   2   | These have an arrow on the top side but they work. https://www.amazon.com/dp/B07TY32628       |
 
-## Enclosure Mounting Parts
+### Enclosure Mounting Parts
 The maker has a lot of flexibility in how the PCB is wired internally and what connectors to use. You may find it more economical to purchase the screws at a hardware store than buy the packs listed below. These are what I used:
 | Item                                        | Qty   | URL                                          |
 | :------------------------------------------ | ----: | :------------------------------------------- |
@@ -343,7 +343,7 @@ The maker has a lot of flexibility in how the PCB is wired internally and what c
 | Black Sheet metal screws				      |   4   | |
 | Black Button Head Socket Cap M3 Screws      |   6   | https://www.amazon.com/dp/B0CLLC3G3S         |
 
-## Tools
+### Tools
 | Item                                       | Qty   | URL                                          |
 | :----------------------------------------- | ----: | :------------------------------------------- |
 | Step Drill Bit                             |   1   | https://www.amazon.com/dp/B076QC5BWR         |
