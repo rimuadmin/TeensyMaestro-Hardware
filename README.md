@@ -210,21 +210,24 @@ You'll see in the picture below, I haven't added switches for all the header con
 There are a large number of headers on the reverse side of the board for connections to elsewhere inside the TeensyMaestro. There are some headers that must be connected (SLICE A and SLICE B), but the remainder are optional. If you use CW, you will want to wire KEY OUT, PADDLES and/or ST KEY to rear connectors and CW MSGS to momentary switches elsehwhere in the enclosure. 
 
 The PCB is designed to hold JST-XH sockets for the headers. These are readily available in pre-wired packs from Amazon. If another connector type is preferred, these could be substituted with any 2.54mm pitch socket.
-- **SLICE A** - A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the left side.
-- **SLICE B** - A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the right side.
-- **TUNE** - A 2-pin connector for a Tune switch mounted in the enclosure.
-- **KEY OUT** - A 2-pin connector for a rear-panel connector for CW Key output. This output uses an opto-coupler for electrical isolation.
-- **PTT SW** - A 2-pin connector that can optionally be connected to a momentary contact push-to-talk switch that can be mounted in the enclosure.
-- **PTT IN** - A 2-pin connector that can optionally be connected to a rear-panel connector for a foot-switch.
-- **SIDE TONE** - A 2-pin connector for a speaker or side-tone amplifier and speaker.
-- **ST KEY** - A 2-pin connector for a rear-panel connector for a CW straight key. 
-- **PADDLES** - A 3-pin connector for DOT (Tip), GND (Shield), DASH (Ring), which connect to a rear-panel connector for CW paddles.. 
-- **I2C** - A 4-pin connector for SDA, SCL, GND, 3.3V that can be used for future expansion of the I2C bus to another internal PCB.
-- **ON_OFF** - A 2-pin connector for a momentary contact switch to turn the TeensyMaestro on or off.
-- **PROGRAM** - A 2-pin connector for a momentary contact switch to put the Teensy 4.1 into programming mode.
-- **MIC_PROFILE** - A 2-pin connector that can be connected to a 3PDT switch for switching between two mics and two Flex mic profiles.
-- **CW_MSGS, ACC8, ACC9** - A 10-pin connector for connection to GND and 6 CW message playback buttons mounted in the enclosure. Two additional accessory pins are included for future use.
-- **ACC0 - ACC7** - A 10-pin connector for GND and 8 accessory pins for future use.
+
+| Header      | Purpose |
+| :---------: | :---------------------------------- |
+| SLICE A     | A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the left side. |
+| SLICE B     | A 5-pin connector for 5V, GND, Phase A, GND and Phase B that connects to the large encoder on the right side. |
+| TUNE        | A 2-pin connector for a Tune switch mounted in the enclosure. |
+| KEY OUT     | A 2-pin connector for a rear-panel connector for CW Key output. This output uses an opto-coupler for electrical isolation. |
+| PTT SW      | A 2-pin connector that can optionally be connected to a momentary contact push-to-talk switch that can be mounted in the enclosure. |
+| PTT IN      | A 2-pin connector that can optionally be connected to a rear-panel connector for a foot-switch. |
+| SIDE TONE   | A 2-pin connector for a speaker or side-tone amplifier and speaker. |
+| ST KEY      | A 2-pin connector for a rear-panel connector for a CW straight key. |
+| PADDLES     | A 3-pin connector for DOT (Tip), GND (Shield), DASH (Ring), which connect to a rear-panel connector for CW paddles. |
+| I2C         | A 4-pin connector for SDA, SCL, GND, 3.3V that can be used for future expansion of the I2C bus to another internal PCB. |
+| ON_OFF      | A 2-pin connector for a momentary contact switch to turn the TeensyMaestro on or off. |
+| PROGRAM     | A 2-pin connector for a momentary contact switch to put the Teensy 4.1 into programming mode. |
+| MIC_PROFILE | A 2-pin connector that can be connected to a 3PDT switch for switching between two mics and two Flex mic profiles. |
+| CW_MSGS, ACC8, ACC9 | A 10-pin connector for connection to GND and 6 CW message playback buttons mounted in the enclosure. Two additional accessory pins are included for future use. |
+| ACC0 - ACC7   | A 10-pin connector for GND and 8 accessory pins for future use. |
 
 ### Slice Tuning Encoders
 
