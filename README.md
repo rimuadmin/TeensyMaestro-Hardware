@@ -79,10 +79,10 @@ Check out and purchase the two boards.
 ### 1. Prepare the Display
 
 #### 1a. Remove the SD Card Holder from the Display
-To fit all the necessary through-hole components onto the TeensyMaestro PCB, we had to fully utilize the available board space. One key adjustment involves the SD card holder that's built into the display module. There were several reasons for this:
+To fit all the necessary through-hole components onto the TeensyMaestro PCB, we had to fully utilize the available board space. One key adjustment involves removing the SD card holder that's built into the display module. There were several reasons for this:
 - The SD card holder is not connected to the TeensyMaestro circuit, so it serves no functional purpose. 
 - The metal casing of the SD card holder can short against the leads of through-hole components on the back of the PCB. 
-- If left in place, it can cause the display to tilt or sit unevenly, making it difficult to mount the front panel flush
+- If left in place, it can cause the display to tilt or sit unevenly, making it difficult to mount the front panel flush.
 
 **Steps to Remove the SD Card Holder:**
 1. **Apply Flux** - Dab a small amount of flux on the joints to improve heat transfer and help the solder flow into the braid.
