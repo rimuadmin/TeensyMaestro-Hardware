@@ -177,10 +177,14 @@ The SD Card holder has been removed and the 4 pin header soldered:
 
 ### 8. Standoffs
 - The standoffs are recommended to prevent the front panel from bowing when the small encoders are tightened against the PCB. 
-- The front panel needs to be kept 8mm from the main board. This height can be obtained by combining a 6mm standoff, a nut and a washer.
+- The front panel needs to be kept approx. 8mm from the main board. This height can be obtained by combining a 6mm standoff, a nut and a washer.
 - Before placing the standoff, screw a nut onto the thread followed by a washer. Then insert the combined standoff, nut and washer through the mounting holes from the front of the PCB and screw another nut on the rear of the PCB to hold it in place.
 - Repeat for all 6 mounting holes.
 - The other ends of the standoffs will not be attached to the front panel, but this will provide enough mechanical support to prevent the panel from bowing.
+
+Standoff measurements:
+
+![Standoff size](images/standoff_size.jpg "Standoff size")
 
 The front of the PCB should look like this:
 ![TeensyMaestro PCB Front](images/TeensyMaestro_pcb_front_20250806.jpg "TeensyMaestro PCB Front")
