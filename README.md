@@ -300,7 +300,7 @@ If you use black screws on the front panel you will end up with a much nicer loo
 ### Small Encoders
 The nine small encoders are each shipped with a washer and nut. Add the washer and gently tighten the nut for each encoder. Don't over tighten or the front panel will bow. 
 
-## Large Slice Encoders
+### Large Slice Encoders
 To attach the two large slice encoders, you will need a total of 6 x 3mm diameter x 12mm long screws. I used these: https://www.amazon.com/dp/B0CLLC3G3S 
 
 ### Enclosure Screws
