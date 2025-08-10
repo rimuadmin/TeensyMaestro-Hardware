@@ -291,20 +291,23 @@ This mini speaker can be connected to the side tone header connector, and then u
 The large slice encoders have long leads attached that make cable management inside the enclosure difficult. I trimmed the length of the leads, soldered the XH connector wires and covered the connections with heatshink tubing. See the chart above for the header pin outs and wire color mapping.
 
 ## Mounting the Front Panel
-The enclosure listed in the BOM includes a front panel that will not be used. Instead order the matching front panel using the instructions here: [TeensyMaestro Front Panel](https://github.com/rimuadmin/Teensy_Maestro_Front_Panel-hw)
+The enclosure listed in the BOM includes a front panel that will not be used. Instead use the Front Panel included in this project.
 
 The front panel is only colored black on the front side. All of the edges are bare aluminum. Use a black permanent magic marker to color the inside edge of the display opening, the button holes and the outside edge of the panel. This will produce a better look than leaving the raw aluminum showing.
 
-### Screws
-Using black screws on the front panel will produce a nice looking front panel. If you prefer, you could counter sink the screws. This will expose raw aluminum, so don't forget to use the black magic marker to color the counter sunk holes.
+If you use black screws on the front panel you will end up with a much nicer looking TeensyMaestro. If you prefer, you could counter sink the screws. This will expose raw aluminum, so don't forget to use the black magic marker to color the counter sunk holes.
 
-You will need 4 screws to attach the panel to the enclosure. Black sheet metal screws with either a button head or truss head will work well.
+### Small Encoders
+The nine small encoders are each shipped with a washer and nut. Add the washer and gently tighten the nut for each encoder. Don't over tighten or the front panel will bow. 
 
+## Large Slice Encoders
 To attach the two large slice encoders, you will need a total of 6 x 3mm diameter x 12mm long screws. I used these: https://www.amazon.com/dp/B0CLLC3G3S 
+
+### Enclosure Screws
+You will need 4 screws to attach the panel to the enclosure. Black sheet metal screws with either a button head or truss head will work well.
 
 ### Knobs
 If you are using the recommended aluminum knobs, you may prefer to wrap the nine small encoder shafts with adhesive aluminum tape to improve the fit of the knobs.
-
 
 # Bill of Materials
 
