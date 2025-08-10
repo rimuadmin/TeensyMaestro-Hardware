@@ -257,6 +257,8 @@ The PCB is designed to hold JST-XH sockets for the headers. These are readily av
 
 ## Rear Panel Connectors
 
+![Rear Enclosure Panel](images/rear_enclosure_panel_50.jpg "Rear Enclosure Panel")
+
 For DIY makers, using circular connectors helps make a good looking enclosure. It's much easier to drill a perfectly round hole than it is to cut a perfect square. Using a Step Bit allows you to drill large sized holes. Here's a step bit that is large enough for the rear panel connectors listed below: https://www.amazon.com/dp/B076QC5BWR
 
 ### Internal USB Cable
