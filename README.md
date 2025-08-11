@@ -239,24 +239,6 @@ The PCB is designed to hold JST-XH sockets for the headers. These are readily av
 | CW_MSGS, ACC8, ACC9 | A 10-pin connector for connection to GND and 6 CW message playback buttons mounted in the enclosure. Two additional accessory pins are included for future use. |
 | ACC0 - ACC7   | A 10-pin connector for GND and 8 accessory pins for future use. |
 
-### Slice Tuning Encoders
-
-| Purpose | Encoder Wire | JST-XH Header Connector Wire | Pin Number |
-| ------- | ------------ | ---------------------------- | :--------: |
-| Phase A | Green        | Black                        |     1      |
-| GND     | Shield       | Red                          |     2      |
-| GND     | Black        | White                        |     3      |
-| +5V     | Red          | Yellow                       |     4      |
-| Phase B | White        | Orange                       |     5      |
-
-### Paddles
-
-| Purpose | 3.5mm Jack | JST-XH Header Connector Wire | Pin Number |
-| ------- | ---------- | ---------------------------- | :--------: |
-| DASH    | Sleeve     | Red                          |     1      |
-| GND     | Ring       | Black                        |     2      |
-| DOT     | Tip        | Yellow                       |     3      |
-
 ## Rear Panel Connectors
 
 ![Rear Enclosure Panel](images/rear_enclosure_panel_50.jpg "Rear Enclosure Panel")
@@ -280,17 +262,35 @@ If needed, there are several headers that can be connected to jacks on the rear 
 
 The Key Out is polarized - make sure that the GND wire connects to the shield of the panel jack.
 
-The paddle connector needs to be wired correctly to work. See the chart above for the pinout and wiring colors. The PCB is marked with DOT(T), GND(S), DSH(R). These describe the parts of the jack: T=Tip, S=Shield, R=Ring
+The Straight Key (ST_KEY) input is marked on the PCB with KEY(T), GND(S). These describe the parts of the jack: T=Tip, S=Shield
 
-Likewise the Straight Key (ST_KEY) input is marked on the PCB with KEY(T), GND(S). These describe the parts of the jack: T=Tip, S=Shield
+### Paddle Connector Jack
+
+The paddle connector needs to be wired correctly to work. See the chart below for the pinout and wiring colors. The PCB is marked with DOT(T), GND(S), DSH(R). These describe the parts of the jack: T=Tip, S=Shield, R=Ring
+
+| Purpose | 3.5mm Jack | JST-XH Header Connector Wire | Pin Number |
+| ------- | ---------- | ---------------------------- | :--------: |
+| DASH    | Sleeve     | Red                          |     1      |
+| GND     | Ring       | Black                        |     2      |
+| DOT     | Tip        | Yellow                       |     3      |
+
+![TRS Plug](images/3.5mm_trs_plug.png "TRS Plug")
 
 ## Internal Connections
 
 ### Mini Speaker for Sidetone
 This mini speaker can be connected to the side tone header connector, and then use double sided tape to stick it to the inside wall of the enclosure: https://www.amazon.com/dp/B07FTB281F
 
-### Slice Encoders Connections
-The large slice encoders have long leads attached that make cable management inside the enclosure difficult. I trimmed the length of the leads, soldered the XH connector wires and covered the connections with heatshink tubing. See the chart above for the header pin outs and wire color mapping.
+### Slice Encoder Connections
+The large slice encoders have long leads attached that make cable management inside the enclosure difficult. I trimmed the length of the leads, soldered the XH connector wires and covered the connections with heatshink tubing. See the chart below for the header pin outs and wire color mapping.
+
+| Purpose | Encoder Wire | JST-XH Header Connector Wire | Pin Number |
+| ------- | ------------ | ---------------------------- | :--------: |
+| Phase A | Green        | Black                        |     1      |
+| GND     | Shield       | Red                          |     2      |
+| GND     | Black        | White                        |     3      |
+| +5V     | Red          | Yellow                       |     4      |
+| Phase B | White        | Orange                       |     5      |
 
 ## Mounting the Front Panel
 
