@@ -329,7 +329,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | 4K7 Resistors                               |   2   |                                                                                                |
 | 100R Resistors                              |   1   |                                                                                                |
 | 4.0in 480x320 TFT Touch Screen LCD          |   1   | https://www.amazon.com/dp/B0CKRJ81B5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1                    |
-| Enclosure                                   |   1   | The same enclosure is available from either Amazon or Digikey: <ul><li>https://www.amazon.com/dp/B005T58ZTO</li><li>https://www.digikey.com/en/products/detail/bud-industries/pc-11491/439698</li></ul>                     |
+| Enclosure                                   |   1   | The same enclosure is available from either Amazon or Digikey: <ul><li>https://www.amazon.com/dp/B005T58ZTO</li><li>https://www.digikey.com/en/products/detail/bud-industries/pc-11491/439698</li></ul>This enclosure comes with a front panel that will be replaced by the front panel in this project. |
 | Slice Tuning Knobs	                      |   2   | https://www.amazon.com/dp/B09CDNKMKD                                                           |
 | Rotary Encoder 600 PPR                      |   2   | https://www.amazon.com/dp/B01MZ4V1XP                                                           |
 | Bourns Rotary Encoder 20 PPR 6mm x 20mm     |   9   | https://www.digikey.com/en/products/detail/bourns-inc/PEC11L-4120F-S0020/4699171               |
@@ -361,7 +361,7 @@ The maker has a lot of flexibility in how the PCB is wired internally and what c
 | SlimRun Ethernet patch cable                |   1   | https://www.monoprice.com/product?p_id=15133 |
 | Mini Speaker                                |   1   | https://www.amazon.com/dp/B07FTB281F         |
 | 3.5mm Jack socket                           |   1   | https://www.amazon.com/dp/B0C9MDDLNG         |
-| Black Sheet metal screws				      |   4   | |
+| Black Sheet Metal Screws				      |   4   | |
 | Black Button Head Socket Cap M3 Screws      |   6   | https://www.amazon.com/dp/B0CLLC3G3S         |
 
 ### Tools
