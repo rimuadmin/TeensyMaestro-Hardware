@@ -270,8 +270,8 @@ The paddle connector needs to be wired correctly to work. See the chart below fo
 
 | Purpose | 3.5mm Jack | JST-XH Header Connector Wire | Pin Number |
 | ------- | ---------- | ---------------------------- | :--------: |
-| DASH    | Sleeve     | Red                          |     1      |
-| GND     | Ring       | Black                        |     2      |
+| DASH    | Ring       | Red                          |     1      |
+| GND     | Sleeve     | Black                        |     2      |
 | DOT     | Tip        | Yellow                       |     3      |
 
 ![TRS Plug](images/3.5mm_trs_plug.png "TRS Plug")
