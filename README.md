@@ -262,7 +262,16 @@ If needed, there are several headers that can be connected to jacks on the rear 
 
 The Key Out is polarized - make sure that the GND wire connects to the shield of the panel jack.
 
+### Straight Key Connector Jack
+
 The Straight Key (ST_KEY) input is marked on the PCB with KEY(T), GND(S). These describe the parts of the jack: T=Tip, S=Shield
+
+| Purpose | 3.5mm Jack | JST-XH Header Connector Wire | Pin Number |
+| ------- | ---------- | ---------------------------- | :--------: |
+| GND     | Sleeve     | Black                        |     1      |
+| KEY     | Tip        | Red                          |     2      |
+
+![TS Plug](images/3.5mm_ts_plug.png "TS Plug")
 
 ### Paddle Connector Jack
 
