@@ -101,7 +101,7 @@ This 4-pin header is not used by the circuit, but must be added to provide mecha
 4. Solder the 4 pin header to the left side of the display.
 5. The pin headers on each side should now be the same height.
 
-The SD Card holder has been removed and the 4 pin header soldered:
+In this picture, the SD Card holder has been removed and the 4 pin header soldered to the left side of the display PCB:
 
 ![Remove SD Card holder from Display](images/tft_sd_card_removal.jpg "Remove SD Card holder")
 
