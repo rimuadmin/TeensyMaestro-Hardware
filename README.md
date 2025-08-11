@@ -194,6 +194,8 @@ The front of the PCB should look like this:
 - Insert 1 x MCP23017 I/O Expander into 28-pin socket. Check that the chip alignment matches the PCB footprint and socket alignment.
 - Insert Teensy 4.1 into socket.
 
+![TeensyMaestro PCB Rear with ICs](images/pcb_rear_with_ics.jpg "TeensyMaestro PCB Rear with ICs")
+
 ### 10. PCB Bring-Up Steps
 - Visually inspect PCB for obvious defects like shorts, bad solder joints, broken traces, or mis-placed components.
 - Use a multi-meter to measure conductivity between 5v, 3.3v and GND test points to make sure there are no shorts.
