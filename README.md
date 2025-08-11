@@ -291,6 +291,9 @@ This mini speaker can be connected to the side tone header connector, and then u
 The large slice encoders have long leads attached that make cable management inside the enclosure difficult. I trimmed the length of the leads, soldered the XH connector wires and covered the connections with heatshink tubing. See the chart above for the header pin outs and wire color mapping.
 
 ## Mounting the Front Panel
+
+![Front Panel with Encoders](images/front_panel_with_encoders.jpg "Front Panel with Encoders")
+
 The enclosure listed in the BOM includes a front panel that will not be used. Instead use the aluminum front panel included in this project and was ordered with the PCB.
 
 The front panel is only colored black on the front side. All of the edges are bare aluminum. Use a black permanent magic marker to color the inside edge of the display opening, the button holes and the outside edge of the panel. This will produce a better look than leaving the raw aluminum showing. Be careful not to get magic marker on the front of the panel as it will be noticeable.
