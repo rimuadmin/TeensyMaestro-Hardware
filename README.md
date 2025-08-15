@@ -313,7 +313,14 @@ The front panel is only colored black on the front side. All of the edges are ba
 If you use black screws on the front panel you will end up with a much nicer looking TeensyMaestro. If you prefer, you could counter sink the screws. This will expose raw aluminum, so don't forget to use the black magic marker to color the counter sunk holes.
 
 ### Small Encoders
-The nine small encoders are each shipped with a washer and nut. Add the washer and gently tighten the nut for each encoder. Don't over tighten or the front panel will bow. 
+The nine small encoders are each shipped with a washer and nut. While the 8mm spacers help a lot to prevent the front panel from bowing, adding extra nuts under the front panel on each encoder will help even further. Without them, the panel can warp and compress the display when you tighten the panel nuts on the top.
+
+1. Place panel nuts on each encoder and screw them down far enough that with the front panel in place, the nuts don't touch it.
+2. Now place the panel on the controls so that it rests on the spacers and put washers and nuts on the controls. Only tighten them enough to hold the panel with no slack (i.e. just touching).
+3. Next, use a small screwdriver to turn the bottom nuts until they just touch the panel.
+4. Finally, tighten the top nuts hand-tight and you are done.
+
+If you elect to build without the additional panel nuts, be careful not to tighten the panel down very much. More than finger-tight will be too much.
 
 ### Large Slice Encoders
 To attach the two large slice encoders, you will need a total of 6 x 3mm diameter x 12mm long screws. I used these: https://www.amazon.com/dp/B0CLLC3G3S 
@@ -343,6 +350,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | Slice Tuning Knobs	                      |   2   | https://www.amazon.com/dp/B09CDNKMKD                                                           |
 | Rotary Encoder 600 PPR                      |   2   | https://www.amazon.com/dp/B01MZ4V1XP                                                           |
 | Bourns Rotary Encoder 20 PPR 6mm x 20mm     |   9   | https://www.digikey.com/en/products/detail/bourns-inc/PEC11L-4120F-S0020/4699171               |
+| Additional nuts for encoders                |   9   | TBD                                                                                            |
 | MEC Switches 3ETH9 Pushbutton 12mm          |   4   | https://www.digikey.com/en/products/detail/mec-switches/3ETH9-12-0/5253118                     |
 | Black Aluminum 6mm shaft, 17mm wide knobs   |   9   | 2 packs of https://www.amazon.com/dp/B07TXYBB7Z											       |
 | <ul><li>9 x 2-pin JST-XH Headers</li><li>1 x 3-pin JST-XH Headers</li><li>1 x 4-pin JST-XH Headers</li><li>2 x 5-pin JST-XH Headers</li><li>2 x 8-pin JST-XH Headers</li></ul>                |   15   | Buy one pack containing multiple sizes: https://www.amazon.com/gp/product/B0DS2GHWRS/ref=sw_img_1?smid=A3S807LE0L63AP&th=1             |
