@@ -341,7 +341,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | MCP23008 I/O Expander                       |   2   | https://www.digikey.com/en/products/detail/microchip-technology/MCP23008-E-P/735951            |
 | MCP23017 I/O Expander                       |   1   | https://www.digikey.com/en/products/detail/microchip-technology/mcp23017-e-sp/894272           |
 | LTV-817 Optoisolator                        |   1   | https://www.digikey.com/en/products/detail/liteon/LTV-817/385836                               |
-| 100nF THT MMC Capacitors                    |   55  | Buy one pack: https://www.amazon.com/dp/B08B3VCK42                                             |
+| 100nF THT MMC Capacitors                    |   63  | Buy one pack: https://www.amazon.com/dp/B08B3VCK42                                             |
 | 1K Resistors                                |   5   |                                                                                                |
 | 4K7 Resistors                               |   2   |                                                                                                |
 | 100R Resistors                              |   1   |                                                                                                |
