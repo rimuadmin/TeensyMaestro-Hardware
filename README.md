@@ -336,7 +336,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 ### Main PCB
 | Item                                        | Qty   | URL                                                                                            |
 | :------------------------------------------ | ----: | :----------------------------------------------------------------------------------------------|
-| Teensy 4.1                                  |   1   | https://www.digikey.com/en/products/detail/sparkfun-electronics/20359/16688101                 |
+| Teensy 4.1                                  |   1   | https://www.digikey.com/en/products/detail/sparkfun-electronics/16771/12180099                 |
 | Teensy 4.1 Ethernet kit                     |   1   | https://www.digikey.com/en/products/detail/sparkfun-electronics/18615/15775140                 |
 | MCP23008 I/O Expander                       |   2   | https://www.digikey.com/en/products/detail/microchip-technology/MCP23008-E-P/735951            |
 | MCP23017 I/O Expander                       |   1   | https://www.digikey.com/en/products/detail/microchip-technology/mcp23017-e-sp/894272           |
