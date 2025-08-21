@@ -336,7 +336,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 ### Main PCB
 | Item                                        | Qty   | URL                                                                                            |
 | :------------------------------------------ | ----: | :----------------------------------------------------------------------------------------------|
-| Teensy 4.1                                  |   1   | https://www.digikey.com/en/products/detail/sparkfun-electronics/16771/12180099                 |
+| Teensy 4.1                                  |   1   | The same board is available from either Digikey or AdaFruit: <ul><li>https://www.digikey.com/en/products/detail/sparkfun-electronics/16771/12180099</li><li>https://www.adafruit.com/product/4622</li></ul>The Teensy 4.1 and Ethernet kit are available in a single kit from Amazon: <P>https://www.amazon.com/PJRC-Cortex-M7-iMXRT1062-Microcontroller-Development/dp/B08RSCFBNF                 |
 | Teensy 4.1 Ethernet kit                     |   1   | https://www.digikey.com/en/products/detail/sparkfun-electronics/18615/15775140                 |
 | MCP23008 I/O Expander                       |   2   | https://www.digikey.com/en/products/detail/microchip-technology/MCP23008-E-P/735951            |
 | MCP23017 I/O Expander                       |   1   | https://www.digikey.com/en/products/detail/microchip-technology/mcp23017-e-sp/894272           |
