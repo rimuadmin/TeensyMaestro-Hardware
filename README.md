@@ -367,7 +367,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | CL170844FR 6mm D-shaft Knob - Grey          |   9   | These have a line on the top and side, so may not be suitable for the Teensy Maestro, but they are available in multiple colors and fit well. This link is for the grey color option: https://www.digikey.com/en/products/detail/cliff-electronic-components-ltd/CL170844FR/19559125 |
 | 2-pin JST-XH Headers and wires              |   9   | These have a longer (50cm) and heavier (22AWG) wire. If you are frequently opening the enclosure, these are more robust and easier to work with. https://www.amazon.com/dp/B0BW9VGY7D  |
 | 3-pin JST-XH Headers and wires              |   1   | These have a longer (50cm) and heavier (22AWG) wire. If you are frequently opening the enclosure, these are more robust and easier to work with. https://www.amazon.com/dp/B0BW9VGY7D  |
-| Slice Tuning Knobs                          |   2   | These have an arrow on the top side but they work. https://www.amazon.com/dp/B07TY32628       |
+| Slice Tuning Knobs                          |   2   | These have a slightly larger diameter but have an arrow on the top side. https://www.amazon.com/dp/B07TY32628       |
 
 ### Enclosure Mounting Parts
 The maker has a lot of flexibility in how the PCB is wired internally and what connectors to use. You may find it more economical to purchase the screws at a hardware store than buy the packs listed below. These are what I used:
