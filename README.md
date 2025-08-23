@@ -347,7 +347,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | 100R Resistors                              |   1   |                                                                                                |
 | 4.0in 480x320 TFT Touch Screen LCD          |   1   | https://www.amazon.com/dp/B0CKRJ81B5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1                    |
 | Enclosure                                   |   1   | The same enclosure is available from either Amazon or Digikey: <ul><li>https://www.amazon.com/dp/B005T58ZTO</li><li>https://www.digikey.com/en/products/detail/bud-industries/pc-11491/439698</li></ul>This enclosure comes with a front panel that will be replaced by the front panel in this project. |
-| Slice Tuning Knobs	                      |   2   | https://www.amazon.com/dp/B09CDNKMKD                                                           |
+| Slice Tuning Knobs (32mm diameter)          |   2   | https://www.amazon.com/dp/B09CDNKMKD                                                           |
 | Rotary Encoder 600 PPR                      |   2   | https://www.amazon.com/dp/B01MZ4V1XP                                                           |
 | Bourns Rotary Encoder 20 PPR 6mm x 20mm     |   9   | https://www.digikey.com/en/products/detail/bourns-inc/PEC11L-4120F-S0020/4699171               |
 | Additional M7 x 0.75mm nuts for encoders    |   9   | Buy one pack of https://www.amazon.com/dp/B0CN2JCNFY                                           |
@@ -367,7 +367,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | CL170844FR 6mm D-shaft Knob - Grey          |   9   | These have a line on the top and side, so may not be suitable for the Teensy Maestro, but they are available in multiple colors and fit well. This link is for the grey color option: https://www.digikey.com/en/products/detail/cliff-electronic-components-ltd/CL170844FR/19559125 |
 | 2-pin JST-XH Headers and wires              |   9   | These have a longer (50cm) and heavier (22AWG) wire. If you are frequently opening the enclosure, these are more robust and easier to work with. https://www.amazon.com/dp/B0BW9VGY7D  |
 | 3-pin JST-XH Headers and wires              |   1   | These have a longer (50cm) and heavier (22AWG) wire. If you are frequently opening the enclosure, these are more robust and easier to work with. https://www.amazon.com/dp/B0BW9VGY7D  |
-| Slice Tuning Knobs                          |   2   | These have a slightly larger diameter but have an arrow on the top side. https://www.amazon.com/dp/B07TY32628       |
+| Slice Tuning Knobs (34mm diameter)          |   2   | These have a slightly larger diameter but have an arrow on the top side. https://www.amazon.com/dp/B07TY32628       |
 
 ### Enclosure Mounting Parts
 The maker has a lot of flexibility in how the PCB is wired internally and what connectors to use. You may find it more economical to purchase the screws at a hardware store than buy the packs listed below. These are what I used:
@@ -387,6 +387,10 @@ The maker has a lot of flexibility in how the PCB is wired internally and what c
 | :----------------------------------------- | ----: | :------------------------------------------- |
 | Step Drill Bit                             |   1   | https://www.amazon.com/dp/B076QC5BWR         |
 
+
+# Troubleshooting
+### Activity LED on the Ethernet RJ45 Mag Jack does not blink
+In this scenario, the TeensyMaestro works correctly but no LEDs show on the RJ45 connector. This is caused when the 6-pin ribbon cable is connected to the Teensy 4.1 with the wrong orientation. Reverse the connection and the LED will blink when there is network activity.
 
 # 3D Views
 
