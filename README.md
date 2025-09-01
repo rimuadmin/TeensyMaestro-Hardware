@@ -348,8 +348,8 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | 4.0in 480x320 TFT Touch Screen LCD          |   1   | https://www.amazon.com/dp/B0CKRJ81B5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1                    |
 | Enclosure                                   |   1   | The same enclosure is available from either Amazon or Digikey: <ul><li>https://www.amazon.com/dp/B005T58ZTO</li><li>https://www.digikey.com/en/products/detail/bud-industries/pc-11491/439698</li></ul>This enclosure comes with a front panel that will be replaced by the front panel in this project. |
 | Slice Tuning Knobs (32mm diameter)          |   2   | https://www.amazon.com/dp/B09CDNKMKD                                                           |
-| Rotary Encoder 600 PPR                      |   2   | https://www.amazon.com/dp/B01MZ4V1XP                                                           |
-| Bourns Rotary Encoder 20 PPR 6mm x 20mm     |   9   | https://www.digikey.com/en/products/detail/bourns-inc/PEC11L-4120F-S0020/4699171               |
+| Slice Tuning Rotary Encoders 600 PPR        |   2   | These are the two large encoders used to tune each Slice, that the main PCB sits in between. https://www.amazon.com/dp/B01MZ4V1XP                                                           |
+| Bourns Rotary Encoders 20 PPR 6mm x 20mm    |   9   | These are the smaller encoders that are soldered on to the main PCB. https://www.digikey.com/en/products/detail/bourns-inc/PEC11L-4120F-S0020/4699171               |
 | Additional M7 x 0.75mm nuts for encoders    |   9   | Buy one pack of https://www.amazon.com/dp/B0CN2JCNFY                                           |
 | MEC Switches 3ETH9 Pushbutton 12mm          |   4   | https://www.digikey.com/en/products/detail/mec-switches/3ETH9-12-0/5253118                     |
 | Black Aluminum 6mm shaft, 17mm wide knobs   |   9   | Buy two packs of https://www.amazon.com/dp/B07TXYBB7Z							     	       |
