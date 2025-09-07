@@ -7,6 +7,8 @@ The TeensyMaestro is a custom-built hardware controller first designed by Len (K
 
 [TeensyMaestro for Flex 6000 Radios](https://github.com/KD0RC/Teensy-Maestro-for-Flex-6000-radios)
 
+Len's GitHub page has a detailed user manual that explains how to use the TeensyMaestro.
+
 The intent of this PCB is to simplify the build process, make it easier to produce a polished final product, and replace some components with less expensive alternatives.
 
 ### Main PCB
@@ -206,6 +208,7 @@ The front of the PCB should look like this:
 - Check LCD displays the startup screen and subsequent screens.
 
 
+
 # Front Panel and Enclosure Mounting
 
 This section covers recommendations, tips and techniques that I (NV0E) used for building my TeensyMaestro. You may find other ways of wiring the connectors, or have other preferences for the rear panel of the enclosure. The following describes a set of parts and techniques that work to create a successful project. Hopefully this will help with whatever choices you make. Since I was testing multiple revisions of the PCB and determining which parts work best, one of my goals was to make it fairly easy to disconnect the PCB from the enclosure if I needed to. I didn't want to have to desolder anything to take it apart.
@@ -338,6 +341,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | :------------------------------------------ | ----: | :----------------------------------------------------------------------------------------------|
 | Teensy 4.1                                  |   1   | The same board is available from either Digikey or AdaFruit: <ul><li>https://www.digikey.com/en/products/detail/sparkfun-electronics/16771/12180099</li><li>https://www.adafruit.com/product/4622</li></ul>The Teensy 4.1 and Ethernet kit are available in a single kit from Amazon: <ul><li>https://www.amazon.com/PJRC-Cortex-M7-iMXRT1062-Microcontroller-Development/dp/B08RSCFBNF</li></ul>*Warning: Be careful not to purchase the 'Teensy 4.1 without Ethernet' as that board doesn't have an Ethernet PHY chip and can't be used for this project.* |
 | Teensy 4.1 Ethernet kit                     |   1   | https://www.digikey.com/en/products/detail/sparkfun-electronics/18615/15775140                 |
+| MicroSD card, 16 to 64 GB, A1, UHS I, U1    |   1   | The card only needs to hold a single configuration file, and so it doesn't need to be large capacity. Smaller capacity cards (less than 32 GB) formatted as FAT32 and are ideal. Larger capacity cards (i.e. 64 GB, A1, UHS I, U1) formatted as exFAT are known to work as well. |
 | MCP23008 I/O Expander                       |   2   | https://www.digikey.com/en/products/detail/microchip-technology/MCP23008-E-P/735951            |
 | MCP23017 I/O Expander                       |   1   | https://www.digikey.com/en/products/detail/microchip-technology/mcp23017-e-sp/894272           |
 | LTV-817 Optoisolator                        |   1   | https://www.digikey.com/en/products/detail/liteon/LTV-817/385836                               |
