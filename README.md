@@ -346,9 +346,9 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | MCP23017 I/O Expander                       |   1   | https://www.digikey.com/en/products/detail/microchip-technology/mcp23017-e-sp/894272           |
 | LTV-817 Optoisolator                        |   1   | https://www.digikey.com/en/products/detail/liteon/LTV-817/385836                               |
 | 100nF THT MMC Capacitors                    |   63  | Buy one pack: https://www.amazon.com/dp/B08B3VCK42                                             |
-| 1K Resistors (1/4 W through-hole)           |   5   |                                                                                                |
-| 4K7 Resistors (1/4 W through-hole)          |   2   |                                                                                                |
-| 100R Resistors (1/4 W through-hole)         |   1   |                                                                                                |
+| 1K Resistors (1/4 W through-hole)           |   5   | 1K Ohm resistors                                                                              |
+| 4K7 Resistors (1/4 W through-hole)          |   2   | 4.7K Ohm resistors                                                                             |
+| 100R Resistors (1/4 W through-hole)         |   1   | 100 Ohm resistor                                                                               |
 | 4.0in 480x320 TFT Touch Screen LCD          |   1   | https://www.amazon.com/dp/B0CKRJ81B5                                                           |
 | Enclosure                                   |   1   | The same enclosure is available from either Amazon or Digikey: <ul><li>https://www.amazon.com/dp/B005T58ZTO</li><li>https://www.digikey.com/en/products/detail/bud-industries/pc-11491/439698</li></ul>This enclosure comes with a front panel that will be replaced by the front panel in this project. |
 | Slice Tuning Knobs (32mm diameter)          |   2   | https://www.amazon.com/dp/B09CDNKMKD                                                           |
