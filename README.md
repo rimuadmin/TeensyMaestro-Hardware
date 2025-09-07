@@ -1,6 +1,6 @@
 # TeensyMaestro Front Panel and PCB
 
-![Assembled TeensyMaestro](images/TeensyMaestro_complete.jpg "Assembled TeensyMaestro")
+![Assembled TeensyMaestro](images/TeensyMaestro_complete_202509.jpg "Assembled TeensyMaestro")
 
 ### Summary
 The TeensyMaestro is a custom-built hardware controller first designed by Len (KD0RC) to interface with FlexRadio transceivers - specifically models in the 6000 and 8000 series. It performs some, but not all, of the common functions that the SmartSDR app or the Flex Maestro perform. The name TeensyMaestro comes from its core component: the Teensy 4.1 microcontroller, which powers the device. Len's initial version was built using point-to-point wiring which presents a challenge for builders. Len (KD0RC) and Simon (NV0E) have created a PCB and matching front panel that simplifies the build process. Len's documentation for hardware version 1, along with firmware that supports all versions, is available here:
