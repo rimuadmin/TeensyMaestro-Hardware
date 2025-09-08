@@ -255,7 +255,7 @@ The TeensyMaestro must be powered via a USB cable connected to the Teensy 4.1. T
 I chose to have a USB Type-B connector on the rear panel as they are robust connectors. This is often just referred to as a printer cable. A rear connector that has USB Type-A on the inside (matches the internal USB cable) and USB Type-B on the outside: https://www.amazon.com/dp/B0CVX68HCH
 
 ### Internal Ethernet Patch Cable
-A short (1ft or less) SlimRun ethernet patch cable can be used to connect to the Teensy 4.1's RJ45. These SlimRun cables are easier to work with in tight spaces: https://www.monoprice.com/product?p_id=15133
+A short (1ft or less) SlimRun ethernet patch cable can be used to connect to the Teensy 4.1's RJ45 Magjack. These SlimRun cables are easier to work with in tight spaces: https://www.monoprice.com/product?p_id=15133 I then used double sided tape to stick the Teensy 4.1's RJ45 Magjack to the inside of the enclosure wall. This seems to hold as long as there isn't a lot of movement on the connectors.
 
 ### Ethernet RJ45 Panel Mount Connector
 This circular connector is easy to mount in the back panel of the enclosure: https://www.amazon.com/dp/B09WM84YRF
@@ -334,6 +334,7 @@ You will need 4 screws to attach the panel to the enclosure. Black sheet metal s
 ### Knobs
 If you are using the recommended aluminum knobs, you may prefer to wrap the nine small encoder shafts with adhesive aluminum tape to improve the fit of the knobs.
 
+
 # Bill of Materials
 
 ### Main PCB
@@ -356,7 +357,7 @@ If you are using the recommended aluminum knobs, you may prefer to wrap the nine
 | Bourns Rotary Encoders 20 PPR 6mm x 20mm    |   9   | These are the smaller encoders that are soldered on to the main PCB. https://www.digikey.com/en/products/detail/bourns-inc/PEC11L-4120F-S0020/4699171               |
 | Additional M7 x 0.75mm nuts for encoders    |   9   | Buy one pack of https://www.amazon.com/dp/B0CN2JCNFY                                           |
 | MEC Switches 3ETH9 Pushbutton 12mm          |   4   | https://www.digikey.com/en/products/detail/mec-switches/3ETH9-12-0/5253118                     |
-| Black Aluminum 6mm shaft, 17mm wide knobs   |   9   | Buy two packs of https://www.amazon.com/dp/B07TXYBB7Z							     	       |
+| Black Aluminum 6mm shaft, 17mm wide knobs   |   9   | Buy three packs of https://www.amazon.com/dp/B07TXYBB7Z							     	       |
 | <ul><li>9 x 2-pin JST-XH Headers</li><li>1 x 3-pin JST-XH Headers</li><li>1 x 4-pin JST-XH Headers</li><li>2 x 5-pin JST-XH Headers</li><li>2 x 10-pin JST-XH Headers</li></ul>                |   15   | Buy one pack containing multiple sizes: https://www.amazon.com/gp/product/B0DS2GHWRS               |
 | 40 Pin 2.54mm Single Row Male Header        |   1   | Buy one pack containing 30 pieces & cut pieces to length: https://www.amazon.com/dp/B0F2FL972R (if out of stock see alternative parts list) |
 | 40 Pin 2.54mm Single Row Female PCB Header  |   1   | Buy one pack containing 60 pieces & cut pieces to length: https://www.amazon.com/dp/B07CGGSDWF (if out of stock see alternative parts list) |
