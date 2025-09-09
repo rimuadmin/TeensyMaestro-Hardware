@@ -2688,6 +2688,18 @@
 		)
 	)
 	(rectangle
+		(start 17.78 15.24)
+		(end 72.39 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12ba4b93-2389-4702-b173-d2da4d11a513)
+	)
+	(rectangle
 		(start 17.78 113.03)
 		(end 137.16 151.13)
 		(stroke
@@ -2760,7 +2772,7 @@
 		(uuid 978d7b94-5f7e-4dec-a0b4-b5f0c1775238)
 	)
 	(rectangle
-		(start 17.78 15.24)
+		(start 74.93 15.24)
 		(end 152.4 68.58)
 		(stroke
 			(width 0)
@@ -2793,15 +2805,25 @@
 		)
 		(uuid "1c7b3456-9c16-42fd-86d9-9e0c2bcfb559")
 	)
-	(text "Slice Tuning"
+	(text "Slice Tuning (NOT ON PCB)"
 		(exclude_from_sim no)
-		(at 26.162 18.542 0)
+		(at 33.02 18.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "5e48cea6-6a1a-4da6-a020-ef3991b26bd8")
+	)
+	(text "Slice Tuning"
+		(exclude_from_sim no)
+		(at 83.058 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fb36927-f491-4eb8-a89d-57a7e505c8b7")
 	)
 	(text "Low Shift / Noise Blanker"
 		(exclude_from_sim no)
@@ -2833,7 +2855,7 @@
 		)
 		(uuid "bdf5e757-9f57-434a-bd8b-b65fa78ed4f2")
 	)
-	(text "VFO A Rotary Encoder"
+	(text "Slice A Rotary Encoder"
 		(exclude_from_sim no)
 		(at 37.084 53.594 0)
 		(effects
@@ -7932,7 +7954,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdaf52f8-51a7-41a5-a7e7-0a25e3a362a4")
 		(property "Reference" "J2"
 			(at 82.55 30.2725 90)
@@ -7943,7 +7964,7 @@
 			)
 		)
 		(property "Value" "B5B-XH-A_LF__SN_"
-			(at 82.55 32.6968 90)
+			(at 85.344 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)

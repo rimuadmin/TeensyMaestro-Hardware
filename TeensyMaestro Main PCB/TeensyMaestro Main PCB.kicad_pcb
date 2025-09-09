@@ -222,7 +222,7 @@
 				)
 			)
 		)
-		(property "Value" "HighWidth/NR B"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -254,6 +254,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "HighWidth/NR B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f345c899-07dd-46b8-8cc3-8236a1261a38")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -617,7 +630,7 @@
 		(path "/0a13916f-d137-4daa-bd1b-f90fe53ebdda")
 		(sheetname "/")
 		(sheetfile "TeensyMaestro Main PCB.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.5 0)
@@ -1034,7 +1047,7 @@
 				)
 			)
 		)
-		(property "Value" "LowShift/NB B"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1066,6 +1079,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "LowShift/NB B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50637e3d-a404-46b1-b5ef-b0b33b1e2551")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1428,7 +1454,7 @@
 				)
 			)
 		)
-		(property "Value" "AGC-T/RIT_Sel A"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1460,6 +1486,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "AGC-T/RIT_Sel A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "314b5a69-28d7-4f38-ba7c-4fbe77144198")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1823,7 +1862,7 @@
 		(path "/f1112249-d8fd-471e-a3e9-6fec1a633879")
 		(sheetname "/")
 		(sheetfile "TeensyMaestro Main PCB.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.5 0)
@@ -1931,7 +1970,7 @@
 		(path "/be3e69fd-dd70-47a7-a7b1-367c3ef65e2a")
 		(sheetname "/")
 		(sheetfile "TeensyMaestro Main PCB.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.5 0)
@@ -1996,7 +2035,7 @@
 				)
 			)
 		)
-		(property "Value" "HighWidth/NR A"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2028,6 +2067,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "HighWidth/NR A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4db715f-3279-4050-ae03-5fad6aa2f0de")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2390,7 +2442,7 @@
 				)
 			)
 		)
-		(property "Value" "RotaryEncoder_Switch_MP"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3973,7 +4025,7 @@
 				)
 			)
 		)
-		(property "Value" "Vol/Mute B"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4005,6 +4057,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "Vol/Mute B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62daa344-85e5-444b-aa82-8576f4dd16b3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4367,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Value" "AGC-T/RIT_Sel A"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4399,6 +4464,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "AGC-T/RIT_Sel A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c14353c4-c59a-4ae7-b710-a3cde4fa1e54")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5156,7 +5234,7 @@
 		(path "/d7e1828a-ec0b-42f4-8ba6-675686e84c5d")
 		(sheetname "/")
 		(sheetfile "TeensyMaestro Main PCB.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.5 0)
@@ -5264,7 +5342,7 @@
 		(path "/d191a1e1-e0d6-4852-bded-6e6a5bc1ab26")
 		(sheetname "/")
 		(sheetfile "TeensyMaestro Main PCB.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.5 0)
@@ -5329,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Value" "LowShift/NB A"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5361,6 +5439,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "LowShift/NB A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc0d0f20-e7c0-4f6b-b7ce-7a191ac23514")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5724,7 +5815,7 @@
 		(path "/87185712-6759-42bb-8c72-306e81ad7392")
 		(sheetname "/")
 		(sheetfile "TeensyMaestro Main PCB.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.5 0)
@@ -6141,7 +6232,7 @@
 				)
 			)
 		)
-		(property "Value" "CW_Mic/Menu Sel"
+		(property "Value" "PEC11L-4120F-S0020"
 			(at 2.5 7.45 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6173,6 +6264,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "CW_Mic/Menu Sel"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "865df1ae-9f8a-481f-98f8-51063477bd41")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7106,7 +7210,7 @@
 		(path "/4c4bdd36-8fd9-4c97-9213-cc92d3a54340/791fe2cc-7e0f-4e60-93b0-3dcf953a9833")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.7 0)
@@ -8027,7 +8131,7 @@
 		(path "/4c4bdd36-8fd9-4c97-9213-cc92d3a54340/b737fbc1-2e75-4b3f-a42c-7e3997838b21")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.7 0)
@@ -12383,7 +12487,7 @@
 		(path "/4c4bdd36-8fd9-4c97-9213-cc92d3a54340/1a86aaf5-abd1-405f-87b2-e6ea2431e04a")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.7 0)
