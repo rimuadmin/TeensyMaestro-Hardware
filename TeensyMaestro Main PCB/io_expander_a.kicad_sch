@@ -2885,6 +2885,26 @@
 		)
 		(uuid "fcc7010f-98c2-4ffb-a7d6-2f9dfac828e4")
 	)
+	(text_box "PCB Correction:\nR1 & R2 removed. C9 and C10 replaced with 1nF values"
+		(exclude_from_sim no)
+		(at 111.76 58.42 0)
+		(size 39.37 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d7c921b4-991a-4451-8e87-2a4d3c0aaea2")
+	)
 	(text_box "I2C Address: 0x20\nI2C clock speed: 400 KHz"
 		(exclude_from_sim no)
 		(at 212.09 58.42 0)
@@ -5461,10 +5481,10 @@
 		(lib_id "Device:R_US")
 		(at 109.22 30.48 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "08109248-657b-4e3c-b249-b1db876880bd")
 		(property "Reference" "R1"
@@ -5889,10 +5909,10 @@
 		(lib_id "Device:R_US")
 		(at 123.19 30.48 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "34b6e122-f8cd-4c67-8b04-ce4cb2ac70b5")
 		(property "Reference" "R2"
@@ -6940,7 +6960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 117.221 50.7421 0)
 			(effects
 				(font
@@ -8744,7 +8764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 135.001 50.7421 0)
 			(effects
 				(font

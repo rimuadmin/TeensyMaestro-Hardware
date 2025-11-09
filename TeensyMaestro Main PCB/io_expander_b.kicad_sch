@@ -2873,6 +2873,26 @@
 		)
 		(uuid "f77f057b-eca8-42ec-9e56-53c096fd9bd5")
 	)
+	(text_box "PCB Correction:\nR3 & R4 removed. C25 and C26 replaced with 1nF values"
+		(exclude_from_sim no)
+		(at 111.76 60.96 0)
+		(size 39.37 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "04a41c2b-ff86-4f0e-ba3d-d2c2a96685ef")
+	)
 	(text_box "I2C Address: 0x21\nI2C clock speed: 400 KHz"
 		(exclude_from_sim no)
 		(at 207.01 60.96 0)
@@ -5383,10 +5403,10 @@
 		(lib_id "Device:R_US")
 		(at 123.19 31.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1a489a80-9e6a-4ba4-8b36-b722fb9f222d")
 		(property "Reference" "R4"
@@ -6293,7 +6313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 135.001 52.0121 0)
 			(effects
 				(font
@@ -6692,7 +6712,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 117.221 52.0121 0)
 			(effects
 				(font
@@ -7429,10 +7449,10 @@
 		(lib_id "Device:R_US")
 		(at 109.22 31.75 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b982ca35-2dda-4f6c-8144-7d76fe4ff65a")
 		(property "Reference" "R3"

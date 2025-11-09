@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "KD0RC TeensyMaestro")
-		(date "2025-09-09")
-		(rev "v3.1")
+		(date "2025-11-08")
+		(rev "v3.2")
 		(company "NV0E")
 		(comment 1 "Based on original design by KD0RC.")
 		(comment 3 "PCB design by NV0E")
