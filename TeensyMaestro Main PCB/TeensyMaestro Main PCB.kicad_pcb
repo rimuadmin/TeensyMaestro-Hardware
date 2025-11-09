@@ -8302,7 +8302,7 @@
 		(path "/5e6cde9f-24b8-4336-93a4-ecc30baa7cf0/1a489a80-9e6a-4ba4-8b36-b722fb9f222d")
 		(sheetname "/IO Expander B/")
 		(sheetfile "io_expander_b.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.04 0)
 			(end 1.81 0)
@@ -13378,7 +13378,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 2.5 -2.5 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -13799,7 +13799,7 @@
 		(path "/9ef16329-409a-4bf0-be05-8f546dce424b/08109248-657b-4e3c-b249-b1db876880bd")
 		(sheetname "/IO Expander A/")
 		(sheetfile "io_expander_a.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.04 0)
 			(end 1.81 0)
@@ -16072,7 +16072,7 @@
 		(path "/9ef16329-409a-4bf0-be05-8f546dce424b/34b6e122-f8cd-4c67-8b04-ce4cb2ac70b5")
 		(sheetname "/IO Expander A/")
 		(sheetfile "io_expander_a.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.04 0)
 			(end 1.81 0)
@@ -16587,7 +16587,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 2.5 -2.5 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22428,7 +22428,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 2.5 -2.5 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -28779,7 +28779,7 @@
 		(path "/5e6cde9f-24b8-4336-93a4-ecc30baa7cf0/b982ca35-2dda-4f6c-8144-7d76fe4ff65a")
 		(sheetname "/IO Expander B/")
 		(sheetfile "io_expander_b.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 1.04 0)
 			(end 1.81 0)
@@ -31917,7 +31917,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 2.5 -2.5 90)
 			(layer "B.Fab")
 			(hide yes)
